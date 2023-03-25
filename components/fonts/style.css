@@ -1,0 +1,9 @@
+@font-face {
+    font-family: 'SoDo Sans';
+    src: local('SoDo Sans Regular'), local('SoDo-Sans-Regular'),
+        url('SoDoSans-Regular.woff2') format('woff2'),
+        url('SoDoSans-Regular.woff') format('woff'),
+        url('SoDoSans-Regular.ttf') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+  }

@@ -1,0 +1,176 @@
+ body {
+    background-color: hsl(0, 0%, 11%);
+    color: rgb(255, 255, 255);
+    font-family: "Sodo Sans SemiBold",Helvetica Neue,Helvetica,Arial,sans-serif;
+}
+
+  header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#title{
+    display: inline-block;
+    font-size: 14px;
+    line-height: 20px;
+    margin-left: 20px
+    
+}
+
+li{
+    display: inline-block;
+    margin: 5px;
+    color: black;
+}
+
+img{
+    width: 850px;
+}
+
+.header1 a{
+color: rgb(255, 255, 255);
+padding: 15px 40px;
+border-radius: 35px;
+border: 1px;
+background-color:rgb(87, 87, 87)
+box-shadow: rgb( 85 82 81) 0 0 8px;
+letter-spacing: 1.5px;
+text-transform: uppercase;
+font-size: 14px;
+transition: all .5s ease;
+}
+
+.header1 a:hover{
+    color: rgb(95, 17, 17)
+    transition: 0.3s all;
+    letter-spacing: 2.5px;
+    background-color: #2b2b2b;
+    color: hsl(129°, 0%, 82%);
+    box-shadow: rgb(255 255 255) 0px 1px 15px 0px;
+}
+
+main{
+    display: flex;
+    flex-direction: row;
+    margin-left: 40px;
+    margin-top: 20px;
+}
+
+h2{
+    font-size: 46px;
+    line-height: 45px;
+    font-family: "Sodo Sans SemiBold";    
+}
+
+.card {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    max-width: 500px;
+    height: 450px;
+    background: #2b2b2b;
+    margin: 0 2px;
+    border-radius: 15px;
+  }
+  
+  .card .header {
+    height: 35px;
+    width: 520px;
+    margin-left: -10px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    background-color: rgb(17, 17, 17);
+    padding-left: 10px;
+    border-radius: 8px;
+  }
+  
+  .card .header .btn {
+    margin-left: 8px;
+    height: 12px;
+    width: 12px;
+    border-radius: 50%;
+    cursor: pointer;
+  }
+  
+  .active {
+    cursor: pointer;
+    position: relative;
+    padding: 0 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fefe;
+    background-color: #2b2b2b;
+    height: 100%;
+    margin-left: 10px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    font-size: 12px;
+  }
+  
+  .card .header div:nth-child(1) {
+    background-color: rgb(255, 102, 0);
+  }
+  
+  .card .header div:nth-child(2) {
+    background-color: rgb(247, 202, 1);
+  }
+  
+  .card .header div:nth-child(3) {
+    background-color: rgb(10, 184, 10);
+  }
+
+  
+  .card .content .req, .card .content .res {
+    padding: 5px;
+    border-bottom: 2px solid rgba(102, 101, 101, 0.685);
+    font-size: 12px;
+    padding: 15px;
+    margin-left: 2%;
+  }
+  
+  .card .content .req {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    position: relative;
+    color: #ffffff;
+    font-size: 15px;
+    margin-left: 5px;
+  }
+
+  
+  .card .sbr {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    position: relative;
+    font-size: 15px;
+    margin-left: 10px;
+    margin-top: 15px;
+    color: #ffffff;
+  }
+  
+  .card .btns {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    font-size: 15px;
+    margin-left: 2px;
+    margin-top: 15px;
+    color:  rgb(255, 255, 255);
+  }
+
+  .card .in {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-left: 200px;
+  margin-top: 10px;
+  margin-right: 20px;
+  }
+
